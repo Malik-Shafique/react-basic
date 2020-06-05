@@ -34,7 +34,7 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
     - name: Deploy to Surge
-      run: surge ./ malik02.surge.sh --token ${{secrets.SURGE_TOKEN}}     
+      run: surge ./ malik01.surge.sh --token ${{secrets.SURGE_TOKEN}}     
       
       
       
